@@ -1,0 +1,12 @@
+[package]
+name = "juniper_context_lifetimes"
+version = "0.1.0"
+authors = ["Jon Cahill <jon@zero41.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+juniper = { git = "https://github.com/graphql-rust/juniper" }
+juniper_rocket_async = { git = "https://github.com/graphql-rust/juniper" }
+rocket = { git = "https://github.com/SergioBenitez/Rocket", branch = "master" }
